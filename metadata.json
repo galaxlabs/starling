@@ -1,0 +1,7 @@
+{
+  "name": "Sterling Edge Ltd | UK Business Platform",
+  "description": "Official website for Sterling Edge Ltd. Modern business solutions in Stockport, Manchester. Services include Cloud Kitchens, Cleaning, Web Development, and SEO.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
