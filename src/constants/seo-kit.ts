@@ -8,7 +8,7 @@ export const SEO_KIT = {
     number: "17101002",
     address: "Stockport, Greater Manchester, UK",
     email: "info@sterlingedge.co.uk",
-    phone: "+44 161 000 0000",
+    phone: "+44 7400 001049",
     whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "4407400001049", // Updated to +4407400001049
   },
   
