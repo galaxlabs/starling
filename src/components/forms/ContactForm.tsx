@@ -109,6 +109,7 @@ const ContactForm = ({ defaultService = "" }) => {
             <option value="cleaning">Cleaning Services</option>
             <option value="web-dev">Web Development</option>
             <option value="seo">Local SEO / GBP Optimization</option>
+            <option value="substation-design">Substation P&C Design</option>
             <option value="other">Other Enquiry</option>
           </select>
           {errors.service && <p className="text-xs text-red-500">{errors.service.message}</p>}

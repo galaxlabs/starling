@@ -28,7 +28,8 @@ const Services = () => (
             { id: "ai-automation", name: "AI & Agentic Solutions" },
             { id: "erp-next", name: "ERPNext Implementation" },
             { id: "web-development", name: "Web Development" },
-            { id: "it-support", name: "IT Growth Support" }
+            { id: "it-support", name: "IT Growth Support" },
+            { id: "substation-design", name: "Substation P&C Design" }
           ].map(s => (
             <Link key={s.id} to={`/services/${s.id}`} className="p-8 bg-gray-50 rounded-3xl hover:bg-white hover:shadow-xl transition-all border border-transparent hover:border-gray-100">
               <h3 className="font-bold mb-2">{s.name}</h3>
@@ -166,6 +167,16 @@ export default function App() {
                 description={SEO_KIT.services.consultation.description}
                 features={["Solution Architecture", "Tech Stack Advisory", "Digital Transformation", "Feasibility Studies"]}
                 image="https://picsum.photos/seed/consult/800/1000"
+              />} 
+            />
+            <Route 
+              path="/services/substation-design" 
+              element={<ServiceDetail 
+                id="substation-design"
+                title={SEO_KIT.services.substationDesign.title}
+                description={SEO_KIT.services.substationDesign.description}
+                features={["Relay Protection Schemes", "Control Logic Design", "IEC 61850 Implementation", "Schematic & Wiring Diagrams"]}
+                image="https://picsum.photos/seed/substation/800/1000"
               />} 
             />
             <Route path="/contact" element={<Contact />} />

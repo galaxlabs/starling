@@ -49,6 +49,10 @@ export const SEO_KIT = {
     erpNext: {
       title: "ERPNext Implementation & Customization | Sterling Edge Ltd",
       description: "End-to-end ERPNext solutions including custom development, POS integration, and business process automation.",
+    },
+    substationDesign: {
+      title: "Substation Protection & Control Design | Sterling Edge Ltd",
+      description: "Expert protection and control (P&C) design services for electrical substations, ensuring grid reliability, safety, and compliance.",
     }
   },
 

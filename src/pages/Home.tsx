@@ -48,6 +48,14 @@ const Home = () => {
           icon: Zap,
           color: "bg-yellow-50 text-yellow-600",
           link: "/services/it-support"
+        },
+        {
+          id: "substation-design",
+          title: "Substation P&C Design",
+          desc: "Expert protection and control design services for electrical substations.",
+          icon: ShieldCheck,
+          color: "bg-teal-50 text-teal-600",
+          link: "/services/substation-design"
         }
       ]
     },
